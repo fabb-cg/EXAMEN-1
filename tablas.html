@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISEÑO INVENTADO </title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            height: 100vh;
+        }
+
+        .item1 {
+            background-color: blue;
+            grid-column: 1 / 2;
+            grid-row: 1 / 4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 2rem;
+        }
+
+        .item2 {
+            background-color: orange;
+            grid-column: 2 / 3;
+            grid-row: 1 / 2;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+            font-size: 1.5rem;
+        }
+
+        .item3 {
+            background-color: brown;
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 1.5rem;
+        }
+
+        .item4 {
+            background-color: green;
+            grid-column: 2 / 3;
+            grid-row: 3 / 4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">TEXTOS DE TERROR</div>
+        <div class="item2">
+            <div><img src="imagenes/terror-a-path.jpg" alt=""width="300"></div>
+            <div>LEE E IMAGINA</div>
+        </div>
+        <div class="item3">En una vieja mansión abandonada, un grupo de amigos decide pasar la noche. 
+            Sin embargo, al caer la oscuridad, extraños sucesos comienzan a ocurrir: 
+            Mientras el terror crece, descubren que la mansión guarda secretos 
+            mortales que podrían costarles la vida.</div>
+        <div class="item4">En un pueblo aislado, un antiguo manicomio reabre sus puertas, 
+            desatando una serie de sucesos paranormales. Los habitantes comienzan a desaparecer 
+            y extrañas sombras acechan cada rincón. Un periodista decide investigar, pero lo que
+            descubre es peor de lo que imaginaba:las almas de los pacientes aún rondan, buscando venganza.
+            El horror está recién comenzando.</div>
+    </div>
+</body>
+</html>
+
